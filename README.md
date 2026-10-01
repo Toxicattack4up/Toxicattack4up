@@ -5,10 +5,8 @@ Junior Python-разработчик (backend). Пишу REST API на FastAPI, 
 Ищу первую работу разработчиком: удалённо, с осени 2027 рассмотрю гибрид в Вологде.
 
 ## Что сделал
-- **Сервис учёта расходников (картриджей)** — внедрён и используется в организации.
-  FastAPI (async), PostgreSQL, SQLModel + Alembic, React, Docker Compose, деплой на Linux за Traefik.
-  REST API справочников, движений и остатков, аналитика закупок, импорт истории из Excel.
-  Рабочий проект, код закрыт (публичное демо в планах).
+- **[cartridge-system](https://github.com/Toxicattack4up/cartridge-system)** — учёт картриджей: FastAPI + React, остатки, движения, прогноз закупки.
+  Публичное обезличенное демо на вымышленных данных (`docker compose up`). CI: ruff + pytest + сборка UI.
 - **Telegram-бот с интеграцией OTRS API** — заявки из чата в систему тикетов (код закрыт).
 - **[Console_chat_TCP](https://github.com/Toxicattack4up/Console_chat_TCP)** — многопоточный TCP-чат на C++17 + SQLite: регистрация, общий/личный чат, тесты и CI.
 - **[AptekaService](https://github.com/Toxicattack4up/AptekaService)** — десктоп-приложение на C++/Qt 6: роли, склад, продажи, корзина *(курсовой проект, 2 человека)*.
